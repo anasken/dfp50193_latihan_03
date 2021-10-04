@@ -16,7 +16,18 @@
     $hadir = false;
     $umur = 20;
     $nokp = '010324-05-0119';
+
     ?> 
+    <h2>
+        <?php
+        $bandar = 'Nilai';
+        $baru = 'Bandar: ';
+        for($x = 0; $x < strlen($bandar); $x++){
+            $baru .= $bandar[$x]. ' ';
+        }
+        echo $baru;
+        ?>
+    </2>
 </body>
 
 </html>
