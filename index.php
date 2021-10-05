@@ -12,7 +12,7 @@
     <h1>Asas PHP</h1>
 
     <?php echo '<h2>hello</2>'; 
-    $nama = 'gay';
+    $nama = 'Anas';
     $hadir = false;
     $umur = 20;
     $nokp = '010324-05-0119';
